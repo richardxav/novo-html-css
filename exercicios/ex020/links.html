@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(110, 187, 255);
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: hotpink;
+        }
+
+        .especial {
+            background-color: rgba(139, 0, 0, 0.616);
+        }
+
+        .especial::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(169, 169, 169);
+        }
+
+        main {
+            width: 700px;
+            margin: auto;
+            border-radius: 10px;
+            background-color: white;
+            padding: 15px;
+        }
+
+        main h1 {
+            text-align: center;
+            font-size: 2.5em;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank" class="especial">Site do CursoemVideo</a></li>
+    </ul>
+    <main>
+        <h1>Nova Vida</h1>
+        <h2>Começo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus totam cumque velit doloremque repellat, reiciendis, molestiae nemo dicta fugit doloribus repellendus culpa fugiat voluptas corrupti eum officia distinctio? Reprehenderit? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos eum soluta deleniti reprehenderit sed sapiente iusto porro consequuntur, deserunt incidunt. Ipsa ut facilis fugiat, commodi nesciunt nihil velit eveniet quam.</p>
+        <h2>Meio</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit assumenda incidunt tempore unde veniam facere quo, harum provident voluptas, quidem ducimus doloremque consequatur molestias aliquid rem asperiores sint aliquam! Facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas dolore minus distinctio! Quidem atque perspiciatis iusto veritatis saepe reiciendis. Et voluptate commodi iste earum porro quibusdam nisi natus necessitatibus minima! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos hic iste blanditiis soluta sint quo natus aut quibusdam. Quae itaque deleniti reiciendis blanditiis! Non mollitia, dicta ea nemo distinctio labore!</p>
+        <h2>Fim</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam facere cumque quas itaque incidunt amet et quod cupiditate? Unde beatae earum consequuntur aliquam, qui voluptatum veniam molestiae. Libero, culpa ipsum!</p>
+    </main>
+</body>
+</html>

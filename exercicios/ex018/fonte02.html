@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'starshines';
+            src: url('fonts/Starshines.otf') format('opentype'), url('fonts/Starshines.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: black;
+        }
+
+        header {
+            background-color: rgb(114, 114, 255); 
+            padding: 10px;
+        }
+
+        header h1 {
+            font-family: 'starshines', Times, serif;
+            font-size: 3.5em;
+            text-align: center;
+            margin: 30px;
+        } 
+        
+        header nav {
+            margin: 10px;
+        }
+
+        header nav > a {
+            color: white;
+            background-color: black;
+            text-decoration: none;
+            font-weight: 700;
+            padding: 15px;
+            margin: 10px;
+            border: 1px solid black;
+            border-radius: 50px;
+        }
+
+        header nav > a:hover {
+            color: #FFE673;
+        }
+
+        main {
+            max-width: 700px;
+            margin: auto;
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        main h2 {
+            font-family: 'starshines', Times, serif;
+            background-image: linear-gradient(to right, #5D81E8, white);
+            padding-left: 5px;
+            margin: 0.5em;
+        }
+
+        main p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>STARSHINES</h1>
+        <nav>
+           <a href="#">Home</a>
+           <a href="#">Novo Mundo</a>
+           <a href="#">Options</a> 
+        </nav>
+    </header>
+    <main>
+        <h2>⭐ Starshines, o Novo Mundo! </h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum hic et iure eveniet earum magnam ut unde, similique mollitia, nostrum cupiditate quisquam culpa aut. Aliquid a atque dolore pariatur. Repellendus! Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, nisi? Rem totam possimus pariatur ducimus, fugiat a adipisci repellendus unde laboriosam error, id cum ea est magni nostrum accusamus aperiam.</p>
+        <h2>⭐ Criatividade</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, totam eaque! Voluptate voluptas praesentium ea corrupti, odio natus libero fugiat? Repudiandae, distinctio doloribus ex commodi vero sequi ab provident eius? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, exercitationem vel totam velit reprehenderit quibusdam laudantium, excepturi amet numquam, ipsa nihil consequatur blanditiis earum iste magni placeat eius fugiat. Mollitia. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor, nisi ipsum. Voluptate repellat debitis atque, cupiditate qui omnis et cumque molestiae enim, dignissimos minus nulla expedita ut sequi voluptates. Quisquam.</p>
+        <h2>⭐ O Universo é Gigantesco</h2>
+        <img src="imagens/estrelas.jpg" alt="estrelas">
+    </main>
+</body>
+</html>
