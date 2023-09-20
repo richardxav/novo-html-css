@@ -11,73 +11,19 @@
 
 body {
     font-family: 'Sriracha', cursive;
-    min-height: 100vh;
-    background-color: darkgray;
+    background-color: lightgray;
 }
 
 header {
     background-color: black;
     color: white;
-    padding: 40px;
     text-align: center;
+    padding: 5em;
 }
 
 header h1 {
     font-family: 'Passion One', cursive;
-    font-weight: 700;
-    font-size: 95px;
-}
-
-header p > a {
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-header p > a:hover {
-    text-decoration: underline;
-}
-
-main {
-    background-color: white;
-}
-
-main p {
-    font-size: 35px;
-    padding: 80px 0px 0px 30px;
-}
-
-div#imagem1 {
-    background-image: url("imagens/background001.jpg");
-    height: 700px;
-    margin-top: 100px;
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-div#imagem2 {
-    background-image: url("imagens/background002.jpg");
-    height: 700px;
-    margin-top: 100px;
-    background-position: right center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-div.caixa {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.603);
-    width: 450px;
-    height: 450px;
-    top: 100px;
-    left: 30px;
-}
-
-div.caixa > p {
-    position: absolute;
-    padding: 5px;
-    color: white;
+    font-size: 7em;
 }
 
 footer {
